@@ -1,10 +1,11 @@
 import React from "react";
-import { Hero } from "./";
+import { Hero, LiveRate } from "./";
 
 const Home = () => {
   return (
     <>
       <Hero />
+      <LiveRate />
     </>
   );
 };
